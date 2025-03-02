@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nalanda Five Star | Home</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Nalanda Five Star⭐⭐⭐⭐⭐</h1>
+      </div>
+      <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+          <!-- <i class="fas fa-bars"></i> -->
+        </label>
+        <ul class="nav-menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="./reservation.html">Reservation</a></li>
+          <li><a href="./location.html">Location</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Welcome to My Five Star Resturent</h1>
+        <p>Experience the finest cuisine in town with our carefully crafted dishes</p>
+        <a href="#menu" class="btn">View Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="menu-categories">
+        <a href="#menu" class="menu-category active">All</a>
+        <a href="#breakfast" class="menu-category"><select name="Breakfast" id="break">
+          <option value="litti">Breakfast</option>
+          <option value="">chhola bhatura</option>
+          <option value="">poha</option>
+          <option value="">puri kachauri jalebi</option>
+        </select></a>
+        
+        <a href="#lunch" class="menu-category"><select id="lunchMenu">
+          <option value="dalBhaat">Dal Bhaat</option>
+          <option value="alooBhujia">Aloo Bhujia</option>
+          <option value="bainganBharta">Baingan Bharta</option>
+          <option value="besanSabzi">Besan Ki Sabzi</option>
+          <option value="chokha">Chokha</option>
+          <option value="bhindiFry">Bhindi Fry</option>
+          <option value="kadhiBari">Kadhi Bari</option>
+          <option value="machhliCurry">Machhli Curry</option>
+          <option value="muttonCurry">Mutton Curry</option>
+          <option value="parwalSabzi">Parwal Ki Sabzi</option>
+      </select></a>
+        <a href="#dinner" class="menu-category"><select id="dinnerMenu">
+          <option value="chanaDalPoori">Chana Dal Poori</option>
+          <option value="bhindiSabzi">Bhindi Ki Sabzi</option>
+          <option value="alooGobhi">Aloo-Gobhi Ki Sabzi</option>
+          <option value="bainganBharta">Baingan Bharta</option>
+          <option value="">kheer puri</option>
+          <option value="jeeraRiceDalFry">Jeera Rice & Dal Fry</option>
+      </select></a>
+        <a href="#desserts" class="menu-category">Desserts</a>
+      </div>
+      
+      <div class="menu-grid">
+        <!-- Breakfast Items -->
+        <div class="menu-item breakfast">
+          <div class="menu-img">
+            <img src="../resturent/img/chholabhatura.jpg"alt="Chhola Bhatura">
+          </div>
+          <div class="menu-info">
+            <h3>Chhola Bhatura</h3>
+            <p>fully tasty and delicious</p>
+            <span class="price">Rs.30.00</span>
+          </div>
+        </div>
+        
+        <div class="menu-item breakfast">
+          <div class="menu-img">
+            <img src="../resturent/img/litti.jpg" alt="Litti Chokha">
+          </div>
+          <div class="menu-info">
+            <h3>Litty Chokha</h3>
+            <p>Roasted wheat flour balls stuffed with sattu, served with mashed potatoes and brinjal.</p>
+            <span class="price">Rs.20.00</span>
+          </div>
+        </div>
+        
+        <!-- Lunch Items -->
+        <div class="menu-item lunch">
+          <div class="menu-img">
+            <img src="../resturent/img/dalchawal.jpg" alt="Dal chawal">
+          </div>
+          <div class="menu-info">
+            <h3>Chawal Dal</h3>
+            <p>Steamed rice served with lentil soup (Toor/Masoor/Moong Dal)</p>
+            <span class="price">Rs.50.00</span>
+          </div>
+        </div>
+        
+        <div class="menu-item lunch">
+          <div class="menu-img">
+            <img src="../resturent/img/muttonchawal.jpg" alt="mutton chawal">
+          </div>
+          <div class="menu-info">
+            <h3>Mutton Chawaal Salad</h3>
+            <p>Spicy Bihari-style mutton curry (for non-vegetarians).</p>
+            <span class="price">Rs70.00</span>
+          </div>
+        </div>
+        
+        <!-- Dinner Items -->
+        <div class="menu-item dinner">
+          <div class="menu-img">
+            <img src="../resturent/img/kheerpuri.jpg" alt="Kheer puri">
+          </div>
+          <div class="menu-info">
+            <h3>Kheer Puri</h3>
+            <p>Kheer puri is deleicious and tasty dinner food for bihari people</p>
+            <span class="price">Rs.70</span>
+          </div>
+        </div>
+        
+        <div class="menu-item dinner">
+          <div class="menu-img">
+            <img src="../resturent/img/sattuparatha.jpg" alt="Sattu paratha">
+          </div>
+          <div class="menu-info">
+            <h3>Sattu Paratha</h3>
+            <p>Sattu Paratha is a traditional and nutritious stuffed flatbread from Bihar. It is made with whole wheat flour and stuffed with sattu (roasted gram flour) mixed with spices and herbs.</p>
+            <span class="price">Rs.100.00</span>
+          </div>
+        </div>
+        
+        <!-- Dessert Items -->
+        <div class="menu-item desserts">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b" alt="Chocolate Lava Cake">
+          </div>
+          <div class="menu-info">
+            <h3>Chocolate Lava Cake</h3>
+            <p>Warm chocolate cake with a molten center and vanilla ice cream</p>
+            <span class="price">Rs.120.00</span>
+          </div>
+        </div>
+        
+        <div class="menu-item desserts">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187" alt="Tiramisu">
+          </div>
+          <div class="menu-info">
+            <h3>Tiramisu</h3>
+            <p>Classic Indian dessert with coffee-soaked ladyfingers and mascarpone</p>
+            <span class="price">Rs.100.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Customer">
+          </div>
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"The food at Five star resturent is absolutely amazing! litti chokha is to die for, and the service is always impeccable. This is my go-to spot for brunch with friends."</p>
+            <h4>Sarah Johnson</h4>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer">
+          </div>
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>"I celebrated my anniversary here last weekend and was blown away by the attention to detail. The steak was cooked to perfection, and they even surprised us with a complimentary dessert!"</p>
+            <h4>Michael Rodriguez</h4>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Customer">
+          </div>
+          <div class="testimonial-content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"As a food critic, I've dined at many restaurants, but Five star Resturent stands out for its innovative menu and commitment to using local ingredients. The sattu paratha is the best"</p>
+            <h4>Emily Chen</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Five Star Resturent</h2>
+          <p>Serving delicious food since 2010</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="#">f<i class="fab fa-facebook-f"></i></a>
+            <a href="#">in<i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter">tw</i></a>
+            <a href="#"><i class="fab fa-yelp"></i></a>
+          </div>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <p>Subscribe to get special offers and event updates</p>
+          <form class="newsletter-form" action="#" method="get">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Café Delight. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
